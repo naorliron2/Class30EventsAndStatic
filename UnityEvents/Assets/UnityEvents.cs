@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class UnityEvents : MonoBehaviour
 {
-    public static UnityEvent OnPickUp;
+    public UnityEvent OnPickUp;
     public UnityEvent FinishedPickups;
     UnityAction<int> test;
     [SerializeField]int score;

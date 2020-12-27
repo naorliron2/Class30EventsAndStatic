@@ -9,6 +9,7 @@ public class ButtonScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+
         myText = GetComponentInChildren<Text>();
     }
     public void UpdateText()

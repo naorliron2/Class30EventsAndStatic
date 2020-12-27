@@ -10,7 +10,7 @@ public class PickUp : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            UnityEvents.OnPickUp.Invoke();
+            eventScript.OnPickUp.Invoke();
             gameObject.SetActive(false);
         }
 
